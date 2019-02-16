@@ -5,7 +5,7 @@ console.log(shuffled);
 const array2 = ["田中", "鈴木", "吉田", "辻"];
 const shuffled2 = shuffledArray(array2);
 console.log(shuffled2);
-function shuffledArray(sorceArr) {
+function shuffledArray(sourceArr) {
   const array = sourceArr.concat();
 
   const arrayLength = array.length;
